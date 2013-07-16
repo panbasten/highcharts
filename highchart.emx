@@ -172,6 +172,28 @@
         <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_u3DL8e5nEeKGjt3o9bB3Zg" fontName="微软雅黑" fillColor="16763850" lineColor="16744576" showStereotype="Label"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u3DL8u5nEeKGjt3o9bB3Zg" x="36960" y="6204" width="4364"/>
       </children>
+      <children xmi:id="_zmAY8O5oEeKGjt3o9bB3Zg" element="_zl7gcO5oEeKGjt3o9bB3Zg">
+        <children xmi:id="_zmBnEO5oEeKGjt3o9bB3Zg" type="ImageCompartment">
+          <layoutConstraint xmi:type="notation:Size" xmi:id="_zmBnEe5oEeKGjt3o9bB3Zg" width="1320" height="1320"/>
+        </children>
+        <children xmi:id="_zmBnEu5oEeKGjt3o9bB3Zg" type="Stereotype"/>
+        <children xmi:id="_zmCOIO5oEeKGjt3o9bB3Zg" type="Name"/>
+        <children xmi:id="_zmC1MO5oEeKGjt3o9bB3Zg" type="Parent"/>
+        <children xmi:id="_zmC1Me5oEeKGjt3o9bB3Zg" type="AttributeCompartment">
+          <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_zmC1Mu5oEeKGjt3o9bB3Zg"/>
+        </children>
+        <children xmi:id="_zmDcQO5oEeKGjt3o9bB3Zg" type="OperationCompartment">
+          <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_zmDcQe5oEeKGjt3o9bB3Zg"/>
+        </children>
+        <children xmi:id="_zmEDUO5oEeKGjt3o9bB3Zg" visible="false" type="SignalCompartment">
+          <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_zmEDUe5oEeKGjt3o9bB3Zg"/>
+        </children>
+        <children xmi:id="_zmEDUu5oEeKGjt3o9bB3Zg" visible="false" type="StructureCompartment">
+          <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_zmEDU-5oEeKGjt3o9bB3Zg"/>
+        </children>
+        <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_zmAY8e5oEeKGjt3o9bB3Zg" fontName="微软雅黑" showStereotype="Label"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zmAY8u5oEeKGjt3o9bB3Zg" x="28908" y="25344"/>
+      </children>
       <styles xmi:type="umlnotation:UMLDiagramStyle" xmi:id="_zth4se4lEeKGjt3o9bB3Zg"/>
       <element xsi:nil="true"/>
       <edges xmi:id="_WdPZAO4mEeKGjt3o9bB3Zg" element="_Wc2-gO4mEeKGjt3o9bB3Zg" source="_4lcp4O4lEeKGjt3o9bB3Zg" target="_ObrWUe4mEeKGjt3o9bB3Zg">
@@ -483,6 +505,10 @@
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aix28O5mEeKGjt3o9bB3Zg" value="*"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aixP4O5mEeKGjt3o9bB3Zg"/>
     </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_zl7gcO5oEeKGjt3o9bB3Zg" name="VMLElement">
+    <ownedOperation xmi:id="_4Me00O5oEeKGjt3o9bB3Zg" name="init（renderer, nodeName）"/>
+    <ownedOperation xmi:id="_8YVKMO5oEeKGjt3o9bB3Zg" name="add（parent）"/>
   </packagedElement>
   <profileApplication xmi:id="_kdby7O4lEeKGjt3o9bB3Zg">
     <eAnnotations xmi:id="_kdby7e4lEeKGjt3o9bB3Zg" source="http://www.eclipse.org/uml2/2.0.0/UML">
